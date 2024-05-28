@@ -27,5 +27,7 @@ int main() {
 
 	cout << "\n";
 
+	delete [] arr;
+
 	return 0;
 }
