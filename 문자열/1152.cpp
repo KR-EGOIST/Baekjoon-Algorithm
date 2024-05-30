@@ -24,7 +24,7 @@ int main() {
 	stringstream stream(str);
 	string s;
   
-  //뽑아내고자 하는 string type을 출력한다.(s가 string type이기 때문에) 공백이나 \n이 나올때 까지 읽어드린 후 출력
+  	//뽑아내고자 하는 string type을 출력한다.(s가 string type이기 때문에) 공백이나 \n이 나올때 까지 읽어드린 후 출력
 	while (stream >> s) {
 		vstr.push_back(s);
 	}
